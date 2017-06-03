@@ -1,0 +1,166 @@
+*{
+	padding:0px;
+	margin:0px 0px 0px 0px;
+}
+
+/*通常*/
+@media screen and (min-width:641px){
+body{
+	width:100vw;
+	min-height:100vh;
+	background:url("image/back.png");
+	background-repeat:repeat;
+	display:flex;
+	flex-direction:column;
+}
+
+header{
+	width:100vw;
+	height:14vh;
+	float:top;
+}
+
+header img{
+	width:100vw;
+	height:14vh;
+}
+
+div.main{
+	width:100vw;
+	height:8vh;
+	margin:4px 0px 0px 0px;
+	float:top;
+}
+
+div.main p.tabs a{
+	display:block;
+	width:19.9vw;
+	height:8vh;
+	float:left;
+	text-align:center;
+	border-radius:12px 12px 0px 0px;
+	color:white;
+	background:url("image/tab_icon.png");
+	background-size:20% 8vh;
+	font-size:20px;
+	text-align:center;
+}
+
+div.main p.tabs a.overview{
+	margin:0px 0px 0px 0.1vw;
+}
+
+div.main p.tabs a.rule{
+	margin:0px 0px 0px 0.1vw;
+}
+
+div.main p.tabs a.progress{
+	margin:0px 0px 0px 0.1vw;
+}
+
+div.main p.tabs a.other{
+	margin:0px 0px 0px 0.1vw;
+}
+
+div.all{
+	width:100vw;
+	flex:1;
+}
+
+div.tab{
+	width:60%;
+	margin:auto;
+	background-color:white;
+}
+
+footer{
+	width:100%;
+	background-color:black;
+}
+
+footer input{
+	margin:0px 1px 0px 0px;
+}
+
+footer p{
+	color:white;
+	font-size:10px;
+}
+
+div.tab a.twitter-timeline{
+	width:80%;
+	margin:auto;
+}
+}
+
+
+/*スマホ*/
+@media screen and (max-width:640px){
+div.header{
+	width:100%;
+	height:60px;
+	float:top;
+}
+
+div.header img{
+	width:100%;
+	height:60px;
+}
+
+div.main{
+	width:100%;
+	height:30px;
+	margin:4px 0px 0px 0px;
+	float:top;
+}
+
+div.main p.tabs a{
+	display:block;
+	width:17.54%;
+	height:30px;
+	float:left;
+	padding:4px;
+	text-align:center;
+	border-radius:12px 12px 0px 0px;
+	color:white;
+	background:url("image/tab_icon.png");
+}
+
+div.main p.tabs a.top{
+	margin:0px 1px 0px 0px;
+}
+
+div.main p.tabs a.overview{
+	margin:0px 1px 0px 0px;
+}
+
+div.main p.tabs a.rule{
+	margin:0px 1px 0px 0px;
+}
+
+div.main p.tabs a.progress{
+	margin:0px 1px 0px 0px;
+}
+
+div.tab{
+	width:100%;
+	float:center;
+	background:url("image/back_smart.png");
+	background-attachment:fixed;
+}
+
+div.endbar{
+	width:100%;
+	background-color:black;
+	float:bottom;
+}
+
+div.endbar input{
+	margin:0px 1px 0px 0px;
+}
+
+div.endbar p{
+	color:white;
+	font-size:8px;
+}
+}

@@ -1,0 +1,85 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+
+@media screen and (max-width:640px)
+div.header{
+	width:100%;
+	height:10%;
+	float:top;
+}
+
+@media screen and (max-width:640px)
+div.header img{
+	width:100%;
+	height:10%;
+}
+
+@media screen and (max-width:640px)
+div.main{
+	width:100%;
+	height:10%;
+	float:top;
+}
+
+@media screen and (max-width:640px)
+div.main p.tabs a{
+	display:block;
+	width:17.54%;
+	float:left;
+	padding:4px;
+	text-align:center;
+	border-radius:12px 12px 0px 0px;
+	color:white;
+	background:url("image/tab_icon.png");
+}
+
+@media screen and (max-width:640px)
+div.main p.tabs a.top{
+	margin:0px 1px 0px 0px;
+}
+
+@media screen and (max-width:640px)
+div.main p.tabs a.overview{
+	margin:0px 1px 0px 0px;
+}
+
+@media screen and (max-width:640px)
+div.main p.tabs a.rule{
+	margin:0px 1px 0px 0px;
+}
+
+@media screen and (max-width:640px)
+div.main p.tabs a.progress{
+	margin:0px 1px 0px 0px;
+}
+
+@media screen and (max-width:640px)
+div.tab{
+	width:100%;
+	height:60%;
+	overflow:scroll;
+	float:center;
+	background:url("image/test.png");
+	background-attachment:fixed;
+}
+
+@media screen and (max-width:640px)
+div.endbar{
+	width:100%;
+	height:20%;
+	background-color:black;
+	float:bottom;
+}
+
+@media screen and (max-width:640px)
+div.endbar input{
+	margin:0px 1px 0px 0px;
+}
+
+@media screen and (max-width:640px)
+div.endbar p{
+	color:white;
+	font-size:8px;
+}
