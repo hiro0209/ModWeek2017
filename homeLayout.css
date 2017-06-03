@@ -46,20 +46,20 @@ div.main p.tabs a{
 	text-align:center;
 }
 
+div.main p.tabs a.top{
+	margin:0px 0.1vw 0px 0px;
+}
+
 div.main p.tabs a.overview{
-	margin:0px 0px 0px 0.1vw;
+	margin:0px 0.1vw 0px 0px;
 }
 
 div.main p.tabs a.rule{
-	margin:0px 0px 0px 0.1vw;
+	margin:0px 0.1vw 0px 0px;
 }
 
 div.main p.tabs a.progress{
-	margin:0px 0px 0px 0.1vw;
-}
-
-div.main p.tabs a.other{
-	margin:0px 0px 0px 0.1vw;
+	margin:0px 0.1vw 0px 0px;
 }
 
 div.all{
@@ -96,34 +96,34 @@ div.tab a.twitter-timeline{
 
 /*スマホ*/
 @media screen and (max-width:640px){
-div.header{
-	width:100%;
-	height:60px;
+header{
+	width:100vw;
+	height:8vh;
 	float:top;
 }
 
-div.header img{
-	width:100%;
-	height:60px;
+header img{
+	width:100vw;
+	height:8vh;
 }
 
 div.main{
-	width:100%;
-	height:30px;
-	margin:4px 0px 0px 0px;
+	width:100vw;
+	height:4vh;
+	margin:2px 0px 0px 0px;
 	float:top;
 }
 
 div.main p.tabs a{
 	display:block;
-	width:17.54%;
-	height:30px;
+	width:19.9vw;
+	height:4vh;
 	float:left;
-	padding:4px;
 	text-align:center;
 	border-radius:12px 12px 0px 0px;
 	color:white;
 	background:url("image/tab_icon.png");
+	background-size:20% 4vh;
 }
 
 div.main p.tabs a.top{
@@ -145,22 +145,22 @@ div.main p.tabs a.progress{
 div.tab{
 	width:100%;
 	float:center;
-	background:url("image/back_smart.png");
-	background-attachment:fixed;
+	background:url("image/back_smart.jpg#);
+	background-repeat:repeat;
 }
 
-div.endbar{
+footer{
 	width:100%;
 	background-color:black;
 	float:bottom;
 }
 
-div.endbar input{
+footer input{
 	margin:0px 1px 0px 0px;
 }
 
-div.endbar p{
+footer p{
 	color:white;
-	font-size:8px;
+	font-size:7px;
 }
 }
