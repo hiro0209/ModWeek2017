@@ -96,6 +96,13 @@ div.tab a.twitter-timeline{
 
 /*スマホ*/
 @media screen and (max-width:640px){
+body{
+	width:100vw;
+	min-height:100vh;
+	background:url("image/back_smart.jpg");
+	background-repeat:repeat;
+}
+
 header{
 	width:100vw;
 	height:8vh;
@@ -116,7 +123,7 @@ div.main{
 
 div.main p.tabs a{
 	display:block;
-	width:19.8vw;
+	width:19.6vw;
 	height:4vh;
 	float:left;
 	text-align:center;
@@ -143,14 +150,12 @@ div.main p.tabs a.progress{
 }
 
 div.tab{
-	width:100%;
+	width:100vw;
 	float:center;
-	background:url("image/back_smart.jpg");
-	background-repeat:repeat;
 }
 
 footer{
-	width:100%;
+	width:100vw;
 	background-color:black;
 	float:bottom;
 }
