@@ -26,7 +26,7 @@ header img{
 }
 
 div.main{
-	width:100vw;
+	width:100%;
 	height:8vh;
 	margin:4px 0px 0px 0px;
 	float:top;
@@ -35,6 +35,7 @@ div.main{
 div.main p.tabs{
 	display:flex;
 	flex-direction:row;
+    justify-content:space-between;
 }
 
 div.main p.tabs a{
@@ -46,7 +47,6 @@ div.main p.tabs a{
 	background:url("image/tab_icon.png");
 	background-size:20% 8vh;
 	font-size:20px;
-	text-align:center;
 }
 
 div.main p.tabs a.top{
@@ -74,6 +74,23 @@ div.tab{
 	width:60%;
 	margin:0 auto;
 	background-color:white;
+}
+
+div.all div.share-button{
+	display:flex;
+	flex-direction:column;
+	margin:0 auto;
+	padding:1vh 1vw 1vh 1vw;
+	position:fixed;
+	left:85vw;
+	top:25vh;
+	background-color:white;
+}
+
+div.all div.share-button fieldset.share-button{
+	margin:0 auto;
+	text-align:center;
+	padding:1vh 1vw 1vh 1vw;
 }
 
 div.ModWeek2017{
@@ -105,6 +122,10 @@ footer input{
 footer p{
 	color:white;
 	font-size:10px;
+}
+
+footer div.share-button{
+	display:none;
 }
 }
 
@@ -170,6 +191,10 @@ div.main p.tabs a.progress{
 div.tab{
 	width:100vw;
 	float:center;
+}
+
+div.all div.share-button{
+	display:none;
 }
 
 footer{
