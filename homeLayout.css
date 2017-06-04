@@ -124,7 +124,7 @@ div.main{
 	float:top;
 }
 
-div.main{
+div.main p.tabs{
 	display:flex;
 	flex-direction:row;
 }
