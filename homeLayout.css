@@ -75,6 +75,7 @@ div.tab{
 	width:60%;
 	margin:0 auto;
 	background-color:white;
+	padding:20px;
 }
 
 div.all div.share-button{
@@ -191,6 +192,7 @@ div.main p.tabs a.progress{
 div.tab{
 	width:100vw;
 	float:center;
+	padding:10px;
 }
 
 div.all div.share-button{
