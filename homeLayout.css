@@ -72,10 +72,27 @@ div.all{
 
 div.tab{
 	width:60%;
-	margin:auto;
+	margin:0 auto;
 	background-color:white;
 }
 
+div.ModWeek2017{
+	margin:0 auto;
+	text-align:center;
+}
+
+div.ivent-official{
+	margin:0 auto;
+	text-align:center;
+}
+
+fieldset.modcount,fieldset.links{
+	width:80%;
+	margin:0 auto;
+	text-align:center;
+	background-color:lightgreen;
+}
+	
 footer{
 	width:100%;
 	background-color:black;
@@ -88,11 +105,6 @@ footer input{
 footer p{
 	color:white;
 	font-size:10px;
-}
-
-div.tab a.twitter-timeline{
-	width:80%;
-	margin:auto;
 }
 }
 
