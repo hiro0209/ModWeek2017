@@ -13,6 +13,7 @@ body{
 	display:flex;
 	flex-direction:column;
 	overflow-x:hidden;
+	font-family:"メイリオ",Meiryo;
 }
 
 header{
@@ -66,6 +67,10 @@ div.main p.tabs a.progress{
 	margin:0px 0.2vw 0px 0px;
 }
 
+div.main p.tabs a.modlist{
+	margin:0px 0.2vw 0px 0px;
+}
+
 div.all{
 	width:100vw;
 	flex-grow:1;
@@ -76,6 +81,63 @@ div.tab{
 	margin:0 auto;
 	background-color:white;
 	padding:20px;
+}
+
+div.tab div.modders{
+	width:100%;
+}
+
+div.tab div.modders div.modders_name{
+	width:(100%-13px);
+	background-color:gray;
+	display:flex;
+	flex-direction:row;
+	padding:5px;
+}
+
+div.tab div.modders div.modders_name h4.modders_name_text{
+	margin:0px 0px 0px 3px;
+}
+
+div.tab div.modders div.mods{
+	width:(100%-24px);
+	background-color:lightgreen;
+	border-style:solid;
+	border-width:3px;
+}
+
+div.tab div.modders div.mods div.mods_box{
+	width:(100%-63px);
+}
+
+div.tab div.modders div.mods embed{
+	width:25%;
+	height:15vh;
+	margin:0 auto;
+	padding:10px;
+	border-style:solid;
+	border-width:0px 3px 0px 0px;
+}
+
+div.tab div.modders div.mods img.thumbnail{
+	width:25%;
+	height:15vh;
+	margin:0 auto;
+	padding:10px;
+	border-style:solid;
+	border-width:0px 3px 0px 0px;
+}
+
+div.tab div.modders div.mods img.thumbnail_mobile{
+	display:none;
+}
+
+div.tab div.modders div.mods a{
+	width:65%;
+	height:15vh;
+	align:center;
+	padding:10px;
+	font-size:20px;
 }
 
 div.all div.share-button{
@@ -115,6 +177,7 @@ fieldset.modcount,fieldset.links{
 footer{
 	width:100%;
 	background-color:black;
+	text-align:center;
 }
 
 footer input{
@@ -139,22 +202,25 @@ body{
 	min-height:100vh;
 	background:url("image/back_smart.jpg");
 	background-repeat:repeat;
+	font-family:"メイリオ",Meiryo;
+	display:flex;
+	flex-direction:column;
 }
 
 header{
 	width:100vw;
-	height:8vh;
+	height:50px;
 	float:top;
 }
 
 header img{
 	width:100vw;
-	height:8vh;
+	height:50px;
 }
 
 div.main{
 	width:100vw;
-	height:4vh;
+	height:30px;
 	margin:2px 0px 0px 0px;
 }
 
@@ -165,12 +231,12 @@ div.main p.tabs{
 
 div.main p.tabs a{
 	flex-grow:1;
-	height:4vh;
+	height:30px;
 	text-align:center;
 	border-radius:12px 12px 0px 0px;
 	color:white;
 	background:url("image/tab_icon.png");
-	background-size:20% 4vh;
+	background-size:30% 6px;
 }
 
 div.main p.tabs a.top{
@@ -189,9 +255,70 @@ div.main p.tabs a.progress{
 	margin:0px 1px 0px 0px;
 }
 
+div.main p.tabs a.modlist{
+	margin:0px 1px 0px 0px;
+}
+
 div.tab{
 	width:100vw;
-	float:center;
+}
+
+div.tab div.modders{
+	width:80%;
+	margin:0 auto;
+}
+
+div.tab div.modders div.modders_name{
+	width:(100%-13px);
+	background-color:gray;
+	display:flex;
+	flex-direction:row;
+	padding:5px;
+}
+
+div.tab div.modders div.modders_name h4.modders_name_text{
+	margin:0px 0px 0px 3px;
+}
+
+div.tab div.modders div.mods{
+	width:(100%-4px);
+	background-color:lightgreen;
+	border-style:solid;
+	border-width:2px;
+}
+
+div.tab div.modders div.mods div.mods_box{
+	width:(100%-26px);
+}
+
+div.tab div.modders div.mods embed{
+	display:none;
+}
+
+div.tab div.modders div.mods div.mods_box img.thumbnail{
+	width:25%;
+	height:40px;
+	margin:0 auto;
+	padding:6px;
+	border-style:solid;
+	border-width:0px 2px 0px 0px;
+}
+
+div.tab div.modders div.mods div.mods_box img.thumbnail_mobile{
+	width:25%;
+	height:40px;
+	margin:0 auto;
+	padding:6px;
+	border-style:solid;
+	border-width:0px 2px 0px 0px;
+}
+
+div.tab div.modders div.mods div.mods_box a{
+	width:65%;
+	height:40px;
+	align:center;
+	padding:6px;
+	font-size:10px;
 }
 
 div.all div.share-button{
@@ -201,7 +328,7 @@ div.all div.share-button{
 footer{
 	width:100vw;
 	background-color:black;
-	float:bottom;
+	flex:1;
 }
 
 footer input{

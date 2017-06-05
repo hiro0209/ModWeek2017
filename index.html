@@ -37,6 +37,7 @@
 					<a href="#header" class="overview" onclick="changeTabs('overview');">概要</a>
 					<a href="#header" class="rule" onclick="changeTabs('rule');">ルール</a>
 					<a href="#header" class="progress" onclick="changeTabs('progress');">進行状況</a>
+					<a href="#header" class="modlist" onclick="changeTabs('modlist');">Mod一覧</a>
 					<a href="#header" class="other" onclick="changeTabs('other');">その他</a>
 				</p>
 			</div>
@@ -69,7 +70,8 @@
 				<h2>イベント概要</h2><br/>
 				<h3>イベントの目的</h3>
 				<p>今回のこのイベントは、衰退しつつあるModPE業界の再活性化を図る狙いがあります。</p>
-				<p>そのため、初心者の方でも優勝の機会が十分ある内容となっています。</p><br/>
+				<p>そのため、初心者の方でも優勝の機会が十分ある内容となっています。</p>
+				<p>強制ではないですが、大型Modではなくてもいいので、とにかくたくさんModをリリースして頂ければ幸いです。</p><br/>
 				<h3>開催日時</h3>
 				<p>●開催日 : 平成29年 6月5日（月） 午前0:00</p>
 				<p>●終了日 : 平成29年 6月12日（日） 午後11:59</p><br/>
@@ -127,6 +129,50 @@
 					<h4>合計 : 3</h4>
 				</fieldset><br/>
 			</div>
+			<div id="modlist" class="tab">
+				<h2>出展Mod一覧</h2>
+				<p>イベントに出展されたModとAddonの一覧です！</p>
+				<p>制作者名の横にある”＋”ボタンを押すとその方が作ったMOdが表示されます。</p>
+				<p>過去作の場合、Mod名の横に出展した過去作の数が付いています。</p><br/>
+				<div class="modders">
+					<div class="modders_name">
+						<input id="nikujaga_button" type="button" value="＋" onclick="modListAction('nikujaga_list','nikujaga_button');">
+						<h4 class="modders_name_text">Mr.肉じゃがじゃが 様</h4>
+					</div>
+					<div id="nikujaga_list" class="mods">
+						<br/><div class="mods_box">
+							<embed pluginspage="http://www.macromedia.com/go/getflashplayer" src="thumbnail/minecart go.mp4"/>
+							<img class="thumbnail_mobile" src="thumbnail/noimage.png">
+							<a href="https://plus.google.com/+Mr肉じゃがじゃが/posts/j933WKUgGUe">MineCart Go</a><br/><br/>
+						</div>
+					</div>
+				</div><br/>
+				<div class="modders">
+					<div class="modders_name">
+						<input id="yuyu_button" type="button" value="＋" onclick="modListAction('yuyu_list','yuyu_button');">
+						<h4 class="modders_name_text">Sorrow Blue 様</h4>
+					</div>
+					<div id="yuyu_list" class="mods">
+						<br/><div class="mods_box">
+							<img class="thumbnail" src="thumbnail/noimage.png"/>
+							<a href="https://plus.google.com/+YuYu_Yutchy/posts/fhTiTTRvJ1f">EasilyDigOre (1)</a><br/><br/>
+						</div>
+					</div>
+				</div><br/>
+				<div class="modders">
+					<div class="modders_name">
+						<input id="genboo_button" type="button" value="＋" onclick="modListAction('genboo_list','genboo_button');">
+						<h4 class="modders_name_text">プログらなーいGenboo 様</h4>
+					</div>
+					<div id="genboo_list" class="mods">
+						<br/><div class="mods_box">
+							<img class="thumbnail" src="thumbnail/noimage.png"/>
+							<a href="https://plus.google.com/106666684430101995501/posts/Tnf3hLYyrgS">Advanced Weapon (1)</a><br/><br/>
+						</div>
+					</div>
+				</div>
+				<script type="text/javascript">modListAllDelete();</script>
+			</div><br/>
 			<div id="other" class="tab">
 				<h2>その他</h2><br/>
 				<h3>Twitter公式アカウント</h3>
