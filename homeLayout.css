@@ -18,18 +18,18 @@ body{
 
 header{
 	width:100vw;
-	height:14vh;
+	height:17vh;
 	float:top;
 }
 
 header img{
 	width:100vw;
-	height:14vh;
+	height:17vh;
 }
 
 div.main{
 	width:100%;
-	height:8vh;
+	height:10vh;
 	margin:4px 0px 0px 0px;
 	float:top;
 }
@@ -42,12 +42,12 @@ div.main p.tabs{
 
 div.main p.tabs a{
 	flex-grow:1;
-	height:8vh;
+	height:10vh;
 	text-align:center;
 	border-radius:12px 12px 0px 0px;
 	color:white;
 	background:url("image/tab_icon.png");
-	background-size:20% 8vh;
+	background-size:20% 10vh;
 	font-size:20px;
 }
 
