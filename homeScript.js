@@ -56,4 +56,5 @@ function modListAllDelete(){
 	document.getElementById("nikujaga_list").style.display="none";
 	document.getElementById("yuyu_list").style.display="none";
 	document.getElementById("genboo_list").style.display="none";
+	document.getElementById("hiro0209_list").style.display="none";
 }
