@@ -1,12 +1,3 @@
-var modder={
-	"nikujaga_list":false,
-	"yuyu_list":false,
-	"genboo_list":false,
-	"hiro0209_list":false,
-	"tirin_list":false
-};
-var name=Object.keys(modder);
-
 function changeTabs(tabName){
 	document.getElementById("top").style.display="none";
 	document.getElementById("overview").style.display="none";
