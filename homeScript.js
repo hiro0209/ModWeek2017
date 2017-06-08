@@ -23,26 +23,6 @@ function selectHeaderImage(){
 	document.write('<img src="'+path+'">');
 }
 
-function showModList(listName){
-	document.getElementById(listName).style.display="block";
-	for(let i=0;i<=name.length;i++){
-		if(modder[name[i]]==listName){
-			modder[name[i]]=true;
-			break;
-		}
-	}
-}
-
-function deleteModList(listName){
-	document.getElementById(listName).style.display="none";
-	for(let i=0;i<=name.length;i++){
-		if(modder[name[i]]==listName){
-			modder[name[i]]=false;
-			break;
-		}
-	}
-}
-
 function modListAction(listName,buttonName){
 	let value=document.getElementById(buttonName).value;
 	if(value=="＋"){
