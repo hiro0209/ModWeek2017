@@ -1,7 +1,9 @@
 var modder={
-	"nikujaga":false,
-	"yuyu":false,
-	"genboo":false
+	"nikujaga_list":false,
+	"yuyu_list":false,
+	"genboo_list":false,
+	"hiro0209_list":false,
+	"tirin_list":false
 };
 var name=Object.keys(modder);
 
@@ -45,10 +47,10 @@ function modListAction(listName,buttonName){
 	let value=document.getElementById(buttonName).value;
 	if(value=="＋"){
 		document.getElementById(buttonName).value="－";
-		showModList(listName);
+		document.getElementById(listName).style.display="block";
 	}else if(value=="－"){
 		document.getElementById(buttonName).value="＋";
-		deleteModList(listName);
+		document.getElementById(listName).style.display="none";
 	}
 }
 
