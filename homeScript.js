@@ -31,4 +31,6 @@ function modListAllDelete(){
 	document.getElementById("genboo_list").style.display="none";
 	document.getElementById("hiro0209_list").style.display="none";
 	document.getElementById("tirin_list").style.display="none";
+	document.getElementById("yoshimoon_list").style.display="none";
+	document.getElementById("masaya_list").style.display="none";
 }
