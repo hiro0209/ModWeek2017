@@ -110,7 +110,7 @@ div.tab div.modders div.mods div.mods_box{
 	width:(100%-63px);
 }
 
-div.tab div.modders div.mods object{
+div.tab div.modders div.mods embed{
 	width:25%;
 	height:15vh;
 	margin:0 auto;
@@ -291,7 +291,7 @@ div.tab div.modders div.mods div.mods_box{
 	width:(100%-26px);
 }
 
-div.tab div.modders div.mods object{
+div.tab div.modders div.mods embed{
 	display:none;
 }
 
