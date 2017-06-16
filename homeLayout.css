@@ -283,8 +283,8 @@ div.tab div.modders div.mods div.mods_box{
 }
 
 div.tab div.modders div.mods div.mods_box img.thumbnail{
-	width:25%;
-	height:40px;
+	width:200px;
+	height:20px;
 	margin:0 auto;
 	padding:6px;
 	border-style:solid;
