@@ -291,9 +291,6 @@ div.tab div.modders div.mods div.mods_box{
 	width:(100%-26px);
 }
 
-div.tab div.modders div.mods embed{
-	display:none;
-}
 
 div.tab div.modders div.mods div.mods_box img.thumbnail{
 	width:25%;
