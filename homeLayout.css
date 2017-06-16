@@ -110,15 +110,6 @@ div.tab div.modders div.mods div.mods_box{
 	width:(100%-63px);
 }
 
-div.tab div.modders div.mods embed{
-	width:25%;
-	height:15vh;
-	margin:0 auto;
-	padding:10px;
-	border-style:solid;
-	border-width:0px 3px 0px 0px;
-}
-
 div.tab div.modders div.mods img.thumbnail{
 	width:25%;
 	height:15vh;
@@ -291,17 +282,7 @@ div.tab div.modders div.mods div.mods_box{
 	width:(100%-26px);
 }
 
-
 div.tab div.modders div.mods div.mods_box img.thumbnail{
-	width:25%;
-	height:40px;
-	margin:0 auto;
-	padding:6px;
-	border-style:solid;
-	border-width:0px 2px 0px 0px;
-}
-
-div.tab div.modders div.mods div.mods_box img.thumbnail_mobile{
 	width:25%;
 	height:40px;
 	margin:0 auto;
