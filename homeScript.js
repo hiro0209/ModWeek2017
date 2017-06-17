@@ -43,5 +43,3 @@ function getDevice(){
 		return "other";
 	}
 }
-
-alert(getDevice());
