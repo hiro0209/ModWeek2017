@@ -128,6 +128,10 @@ div.tab div.modders div.mods embed.thumbnail{
 	border-width:0px 3px 0px 0px;
 }
 
+div.tab div.modders div.mods div.mods_box div.mods_name{
+	display:inlin_block;
+}
+
 div.tab div.modders div.mods a{
 	width:65%;
 	height:15vh;
@@ -300,6 +304,10 @@ div.tab div.modders div.mods div.mods_box embed.thumbnail{
 	height:100px;
 	margin:0 auto;
 	padding:6px;
+}
+
+div.tab div.modders div.mods div.mods_box div.mods_name{
+	display:block;
 }
 
 div.tab div.modders div.mods div.mods_box a{
