@@ -114,6 +114,7 @@ div.tab div.modders div.mods div.mods_box{
 div.tab div.modders div.mods img.thumbnail{
 	width:25%;
 	height:15vh;
+	margin:0 auto;
 	padding:10px;
 	border-style:solid;
 	border-width:0px 3px 0px 0px;
@@ -122,6 +123,7 @@ div.tab div.modders div.mods img.thumbnail{
 div.tab div.modders div.mods embed.thumbnail{
 	width:25%;
 	height:15vh;
+	margin:0 auto;
 	padding:10px;
 	border-style:solid;
 	border-width:0px 3px 0px 0px;
