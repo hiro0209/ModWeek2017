@@ -108,6 +108,7 @@ div.tab div.modders div.mods{
 
 div.tab div.modders div.mods div.mods_box{
 	width:(100%-63px);
+	display:inline-block;
 }
 
 div.tab div.modders div.mods img.thumbnail{
@@ -129,13 +130,11 @@ div.tab div.modders div.mods embed.thumbnail{
 }
 
 div.tab div.modders div.mods div.mods_box div.mods_name{
-	display:inline_block;
+	display:inline-block;
 }
 
-div.tab div.modders div.mods a{
-	width:65%;
+div.tab div.modders div.mods div.mods_box a{
 	height:15vh;
-	align:center;
 	padding:10px;
 	font-size:20px;
 }
