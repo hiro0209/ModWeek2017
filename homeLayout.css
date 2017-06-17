@@ -279,7 +279,8 @@ div.tab div.modders div.modders_name h4.modders_name_text{
 div.tab div.modders div.mods{
 	width:(100%-4px);
 	background-color:lightgreen;
-	display:block;
+	display:flex;
+	flex-direction:column;
 	border-style:solid;
 	border-width:2px;
 	text-align:center;
