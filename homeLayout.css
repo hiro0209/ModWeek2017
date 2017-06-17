@@ -129,8 +129,7 @@ div.tab div.modders div.mods img.thumbnail{
 }
 
 div.tab div.modders div.mods div.mods_box div.mods_name{
-	display:flex;
-	flex-direction:row;
+	display:inline-block;
 }
 
 div.tab div.modders div.mods a{
@@ -308,8 +307,7 @@ div.tab div.modders div.mods div.mods_box embed{
 }
 
 div.tab div.modders div.mods div.mods_box div.mods_name{
-	display:flex;
-	flex-direction:column;
+	display:block;
 }
 
 div.tab div.modders div.mods div.mods_box a{
