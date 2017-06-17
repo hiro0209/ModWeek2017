@@ -44,5 +44,4 @@ function getDevice(){
 	}
 }
 
-var ua = navigator.userAgent;
-alert(ua);
+alert(getDevice());
