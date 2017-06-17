@@ -128,8 +128,9 @@ div.tab div.modders div.mods img.thumbnail{
 	border-width:0px 3px 0px 0px;
 }
 
-div.tab div.modders div.mods img.thumbnail_mobile{
-	display:none;
+div.tab div.modders div.mods div.mods_box div.mods_name{
+	display:flex;
+	flex-direction:row;
 }
 
 div.tab div.modders div.mods a{
@@ -300,14 +301,15 @@ div.tab div.modders div.mods div.mods_box img.thumbnail{
 	padding:6px;
 }
 
-div.tab div.modders div.mods div.mods_box embed.thumbnail{
+div.tab div.modders div.mods div.mods_box embed{
 	height:100px;
 	margin:0 auto;
 	padding:6px;
 }
 
 div.tab div.modders div.mods div.mods_box div.mods_name{
-	display:block;
+	display:flex;
+	flex-direction:column;
 }
 
 div.tab div.modders div.mods div.mods_box a{
