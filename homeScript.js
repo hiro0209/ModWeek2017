@@ -34,3 +34,12 @@ function modListAllDelete(){
 	document.getElementById("yoshimoon_list").style.display="none";
 	document.getElementById("masaya_list").style.display="none";
 }
+
+function getDevice(){
+	var ua = navigator.userAgent;
+    if(ua.indexOf("iPhone")>0||ua.indexOf("iPod")>0||ua.indexOf("Android")>0&&ua.indexOf("Mobile")>0){
+        return "smart";
+    }else{
+        return "other";
+    }
+}

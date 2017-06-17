@@ -295,12 +295,14 @@ div.tab div.modders div.mods div.mods_box{
 }
 
 div.tab div.modders div.mods div.mods_box img.thumbnail{
+	width:70%;
 	height:100px;
 	margin:0 auto;
 	padding:6px;
 }
 
 div.tab div.modders div.mods div.mods_box embed{
+	width:70%;
 	height:100px;
 	margin:0 auto;
 	padding:6px;
