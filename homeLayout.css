@@ -281,12 +281,12 @@ div.tab div.modders div.mods{
 }
 
 div.tab div.modders div.mods div.mods_box{
-	width:(100%-26px);
+	width:100%;
 }
 
 div.tab div.modders div.mods div.mods_box img.thumbnail{
-	width:100%;
-	height:40px;
+	width:(100%-12px);
+	height:100px;
 	margin:0 auto;
 	padding:6px;
 }
@@ -295,7 +295,7 @@ div.tab div.modders div.mods div.mods_box a{
 	width:65%;
 	height:40px;
 	padding:6px;
-	font-size:20px;
+	font-size:15px;
 }
 
 div.all div.share-button{
