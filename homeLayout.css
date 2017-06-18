@@ -289,7 +289,6 @@ div.tab div.modders div.mods{
 }
 
 div.tab div.modders div.mods div.mods_box{
-	display:list-item;
 	width:100%;
 }
 
@@ -298,6 +297,7 @@ div.tab div.modders div.mods div.mods_box img.thumbnail{
 	height:160px;
 	margin:0 auto;
 	padding:6px;
+	display:list-item;
 }
 
 div.tab div.modders div.mods div.mods_box embed{
@@ -305,6 +305,7 @@ div.tab div.modders div.mods div.mods_box embed{
 	height:160px;
 	margin:0 auto;
 	padding:6px;
+	display:list-item;
 }
 
 div.tab div.modders div.mods div.mods_box div.mods_name{
@@ -316,6 +317,7 @@ div.tab div.modders div.mods div.mods_box a{
 	height:40px;
 	padding:6px;
 	font-size:15px;
+	display:list-item;
 }
 
 div.all div.share-button{
