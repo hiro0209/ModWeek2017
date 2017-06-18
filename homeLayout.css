@@ -290,8 +290,6 @@ div.tab div.modders div.mods{
 
 div.tab div.modders div.mods div.mods_box{
 	width:100%;
-	display:flex;
-	flex-direction:column;
 }
 
 div.tab div.modders div.mods div.mods_box img.thumbnail{
