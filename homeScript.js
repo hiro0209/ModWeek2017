@@ -1,3 +1,5 @@
+var device=null;
+
 function changeTabs(tabName){
 	document.getElementById("top").style.display="none";
 	document.getElementById("overview").style.display="none";
@@ -36,10 +38,13 @@ function modListAllDelete(){
 }
 
 function getDevice(){
-	var ua = navigator.userAgent;
-	if(ua.indexOf("iPhone")>0||ua.indexOf("iPod")>0||ua.indexOf("Android")>0&&ua.indexOf("Mobile")>0){
-		return "smart";
-	}else{
-		return "other";
+	if(device==null){
+		var ua = navigator.userAgent;
+		if(ua.indexOf("iPhone")>0||ua.indexOf("iPod")>0||ua.indexOf("Android")>0&&ua.indexOf("Mobile")>0){
+			device="smart";
+		}else{
+			device="other";
+		}
 	}
+	return device;
 }
