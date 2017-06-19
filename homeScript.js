@@ -35,6 +35,9 @@ function modListAllDelete(){
 	document.getElementById("tirin_list").style.display="none";
 	document.getElementById("yoshimoon_list").style.display="none";
 	document.getElementById("masaya_list").style.display="none";
+	document.getElementById("yamasue_list").style.display="none";
+	document.getElementById("kirimi_list").style.display="none";
+	document.getElementById("hibiki_list").style.display="none";
 }
 
 function getDevice(){
