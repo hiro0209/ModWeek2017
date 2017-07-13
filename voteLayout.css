@@ -1,0 +1,51 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+/*通常*/
+@media screen and (min-width: 641px) {
+div.mdl-layout__drawer nav {
+	padding: 0px 0px 0px 12px;
+}
+
+div.mdl-layout__drawer nav.mdl-navigation a {
+	margin: 0px 0px 30px 0px;
+	font-size: 20px;
+	color: black;
+}
+
+div.content {
+	padding: 40px;
+}
+
+div.content p {
+	font-size: 20px;
+	color: black;
+}
+
+div.content input {
+	width: 50vw;
+	height: 70px;
+	color: red;
+	font-size: 30px;
+}
+}
+
+/*スマホ*/
+@media screen and (min-width: 640px) {
+div.mdl-layout__drawer nav {
+	padding: 0px 0px 0px 4px;
+}
+
+div.mdl-layout__drawer nav a {
+	margin: 0px 0px 6px 0px;
+	font-size: 12px;
+	color: black;
+}
+
+div.top-content p {
+	font-size: 12px;
+	color: black;
+}
+}
