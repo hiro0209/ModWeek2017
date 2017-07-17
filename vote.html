@@ -41,11 +41,10 @@
     			<nav class = "mdl-navigation">
     				<a class = "mdl-layout__link" onclick = "changeContent('top-content');">トップ</a>
     				<a class = "mdl-layout__link" onclick = "changeContent('warning-content');">注意書き</a>
-    				<a class = "mdl-layout__link" href = "">投票ページ</a>
+    				<a class = "mdl-layout__link" onclick = "changeContent('vote-content');">投票ページ</a>
     			</nav>
     		</div>
     		<main class = "mdl-layout__content">
-    			
     			<div class = "page-content">
     				<div class = "content" id = "top-content">
     					<h2 style = "color: green">ここはModweek2017の、作品投票用ページです！</h2><br/>
@@ -55,7 +54,7 @@
     					<p>投票する際には、左上のメニューか、下のボタンから投票画面にお進みください。</p>
     					<p>また、投票する際には、左上のメニューから注意書きページに飛んで、注意書きをよく読んでからお願いします。</p>
     					<p>投票をした場合、その注意書きを読んだものとして認識します。</p><br/><br/>
-    					<input type = "button" value = "投票開始！" onclick = "alert(String(deviceId));">
+    					<input type = "button" value = "投票開始！" onclick = "changeContent('vote-content');">
     				</div>
     				<div class = "content" id = "warning-content">
     					<h2 style = "color: green">注意書き</h2><br/>
@@ -66,8 +65,16 @@
     					<p>４, 期間中であれば、何度でも投票Modを変えることができます。</p>
     					<p>５, 投票期間は、7月21日正午から7月28日正午までを予定しています。</p>
     				</div>
-    				
-    						
+    				<div class = "content" id = "vote-content">
+    					<h2 style = "color: green">作品投票ページ</h2><br/>
+    					<p>ここは作品投票ページです。ここではイベントに出展されたModに投票することができます。</p>
+    					<p>作品に投票する前に、<a onclick = "changeContent('warning-content');">注意書き</a> をよくお読みください。</p>
+    					<p>また、投票内容を送信する際にお名前のご記入が必要となりますので、あらかじめご了承ください。</p><br/><br/>
+    					<tr>
+    						<td align = "right"><b>名前:</b></td>
+    						<td><input type = "text" size = 20></td>
+    					</tr>
+    				</div>
     			</div>
     			<script type = "text/javascript">resetContent();</script>
     		</main>

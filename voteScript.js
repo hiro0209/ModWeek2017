@@ -1,22 +1,17 @@
 firebase.initializeApp(config);
 const storage = firebase.database();
-let deviceId = null;
-
-window.addEventListener("load", function()	{
-	document.addEventListener("deviceready", function()	{
-		deviceId = device.uuid;
-	}, false);
-}, true);
 
 function changeContent(id) {
 	document.getElementByd("top-content").style.display = "none";
 	document.getElementById("warning-content").style.display = "none";
+	document.getElementById("vote-content").style.display = "none";
 	document.getElementById(id).style.display = "block";
 }
 
 function resetContent() {
 	document.getElementById("top-content").style.display = "block";
 	document.getElementById("warning-content").style.display = "none";
+	document.getElementById("vote-content").style.display = "none";
 }
 
 function uploadVoteData() {
