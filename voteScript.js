@@ -4,8 +4,7 @@ let deviceId = null;
 
 window.addEventListener("load", function()	{
 	document.addEventListener("deviceready", function()	{
-		const uuid = window.device.uuid;
-		document.write(uuid);
+		deviceId = device.uuid;
 	}, false);
 }, true);
 
